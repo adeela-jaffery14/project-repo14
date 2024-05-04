@@ -1,0 +1,51 @@
+body { 
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.title-main { 
+    width: 100%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-repeat: no-repeat;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .main-pic { 
+    border-radius: 10px;
+  }
+
+  #testimonials > .container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-pic { 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .icon-square { 
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+  }
+
